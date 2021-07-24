@@ -1,4 +1,4 @@
-const express=require('express');
+const express=require('express')
 const router= express.Router();
 const {getProductById, createProduct, deleteProduct, getProduct, getProductImage, updateProduct, getAllProducts, getUniqueCategories}=require('../controllers/product')
 const {isSignedIn, isAuthenticated, isAdmin}=require('../controllers/auth')
